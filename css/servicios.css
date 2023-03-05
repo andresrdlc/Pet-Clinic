@@ -113,6 +113,9 @@ main{
         font-size: 2.5em;
         font-weight: 600;
     }
+    .wrapper .parrafo{
+        margin: 0px 60px;
+    }
     .content-box{
         flex-direction: column;
         width: 100%;

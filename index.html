@@ -33,13 +33,22 @@
             </ul>
         </nav>
         <a href="Contacto.html" class="btn-nav"><button>Contacto</button></a>
-    </header>
 
+        <a onClick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="Servicios.html">Servicios</a>
+                <a href="Nosotros.html">Nosotros</a>
+                <a href="Contacto.html">Contacto</a>
+            </div>
+        </div>
+    </header>
     <!-- end -->
 
-
     <!-- Inicio -->
-
     <section class="inicio" id="inicio">
 
         <div class="content">
@@ -49,14 +58,10 @@
         <!--
             <img src="img/bottom_wave.png" alt="" class="wave">
         -->
-        
-
     </section>
-
     <!-- end -->
 
     <!-- home-part2 -->
-
     <section class="home-part2" id="home-part2">
         
         <div class="box-container">
@@ -91,11 +96,9 @@
         </div>
 
     </section>
-
     <!-- end -->
    
     <!-- home-part4 -->
-
     <section class="home-part4" id="home-part4">
 
         <h2 class="heading">animals</h2>
@@ -131,13 +134,10 @@
             </div>
 
         </div>
-
     </section>
-
     <!-- end -->
     
     <!-- home-part5 -->
-
     <section class="home-part5" id="home-part5">
 
         <h2 class="heading">Nuestra especialidad</h2>
@@ -161,15 +161,11 @@
                 <h3>Baños médicados</h3>                
                 <p>Baños médicados para mantener la piel sana</p>
             </div>
-
         </div>
-
     </section>
-
     <!-- end -->
     
     <!-- footer -->
-
     <footer class="footer">
         <div class="grupo-1">
             <div class="box">
@@ -200,11 +196,10 @@
             <small>&copy; 2023 <b>Pet Clinic | Grupo 01</b> - Todos los derechos reservados.</small>
         </div>
     </footer>
-
     <!-- end -->
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-    <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/nav.js"></script>
 
 </body>
 </html>

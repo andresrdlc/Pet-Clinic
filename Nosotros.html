@@ -26,6 +26,18 @@
             </ul>
         </nav>
         <a href="Contacto.html" class="btn-nav"><button>Contacto</button></a>
+
+        <a onClick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="Servicios.html">Servicios</a>
+                <a href="Nosotros.html">Nosotros</a>
+                <a href="Contacto.html">Contacto</a>
+            </div>
+        </div>
     </header>
 
     <section >
@@ -75,5 +87,7 @@
             <small>&copy; 2023 <b>Pet Clinic | Grupo 01</b> - Todos los derechos reservados.</small>
         </div>
     </footer>
+
+    <script type="text/javascript" src="js/nav.js"></script>
 </body>
 </html>
