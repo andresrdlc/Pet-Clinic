@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+:root {
+    --color-bg: #D1EEEC;
+    --color-bg-variant: #1E8A87;
+    --color-primary: #1E8A87 ;
+    --color-primary-variant: #1E8A87 ;
+    --color-white: #D1EEEC;
+    --color-light: #2D4F82;
+
+    --transition: all 400ms ease;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+/* Genearl styles */
+
+
+section {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.7;
+    width: var(--container-width-lg);
+    padding: 3.9rem 0;
+    width: 100%;
+    margin:  0 auto;
+    text-align: center;
+    display: flex;
+    gap: 100px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+section p {
+    font-size: 1.3rem;
+    width: 600px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.img-nosotros {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px #1E8A87 solid;
+}
+
+.h2-sub {
+    font-size: 3rem;
+    color: #64d1c9;
+    font-weight: 600;
+    line-height: 50px 100px 50px;
+}
+
+.fil {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.head {
+    color: #fff;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: .5rem;
+}
+
+.he-des h5 {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+}
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: -2px;
+    width: 180px;
+}
+
+.cta-btn {
+    font-size: 1.1rem;
+    background-color: #2d4f82;
+    padding: 1.5rem 3rem;
+    color: #fff;
+    border-radius: .4rem;
+}
+.cta-btn:hover,
+.cta-btn:focus {
+    color: #fff;
+    background-color: #64d1c9;
+}
+
+
+.global {
+    text-align: center;
+    margin-top: 3.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.content-about .global {
+    margin-top: 6.9rem;
+}
+
+.hea-dark {
+    color: #2d4f82;
+    letter-spacing: .7rem;
+    margin-right: -.7rem;
+}
+
+.global .h2-sub {
+    letter-spacing: -1px;
+    line-height: .42;
+}
+
+.contenido {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.res-des p {
+    line-height: 1.6;
+    margin-bottom: 2.4rem
+}
